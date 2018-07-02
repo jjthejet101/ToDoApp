@@ -7,7 +7,7 @@ import { AddItemPage } from '../pages/add-item/add-item';
 import { ItemDetailPage } from '../pages/item-detail/item-detail';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { DataProvider } from '../providers/data/data';
+import { Data } from '../providers/data/data';
  
 @NgModule({
   declarations: [
@@ -18,7 +18,8 @@ import { DataProvider } from '../providers/data/data';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -28,6 +29,6 @@ import { DataProvider } from '../providers/data/data';
     ItemDetailPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, StatusBar, SplashScreen,
-    DataProvider]
+    Data]
 })
 export class AppModule {}
