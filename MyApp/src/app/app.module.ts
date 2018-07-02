@@ -7,6 +7,7 @@ import { AddItemPage } from '../pages/add-item/add-item';
 import { ItemDetailPage } from '../pages/item-detail/item-detail';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { DataProvider } from '../providers/data/data';
  
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AddItemPage,
     ItemDetailPage
   ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, StatusBar, SplashScreen]
+  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, StatusBar, SplashScreen,
+    DataProvider]
 })
 export class AppModule {}
