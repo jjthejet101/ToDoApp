@@ -11,7 +11,7 @@ instructor/mentor.
 - Build an Ionic app that uses AngularJS or angular2 to implement a simple
 todo list app. 
 
-<!-- 1. It should allow you to add todo items  -->
+1. It should allow you to add todo items 
 2. and mark item status as pending , complete , or overdue . 
 3. It should allow you to update and 
 4. delete todo items. 
