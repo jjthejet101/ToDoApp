@@ -8,6 +8,7 @@ import { ItemDetailPage } from '../pages/item-detail/item-detail';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { Data } from '../providers/data/data';
+import { IonicStorageModule } from '@ionic/storage';
  
 @NgModule({
   declarations: [
