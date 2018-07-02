@@ -19,7 +19,7 @@ todo list app.
 6. as well as just those todo items that are currently pending , 
 7. as well as just those items that are currently overdue . 
 8. Each todo item has a unique id field, 
-9. as well as fields for the todo item named name and status .
+9. as well as fields for the todo item named 'name' and 'status' .
 10. The app should remember the todo item state over the ling term. To do
 that, you can store app state data in an embedded SQLite database, or a
 custom online web service that you host on a Azure or AWS, or just read

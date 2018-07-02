@@ -30,5 +30,8 @@ export class HomePage {
   viewItem(){
  
   }
+
+  // deleteItem here?
+  // updateItem here?
  
 }
